@@ -1,0 +1,84 @@
+body {
+  background: skyblue;
+  color: rgb(50,50,50);
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-family: Eras Bold ITC;
+}
+
+h1 {
+  color: #8bbabb;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #8bbabb;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: Eras Bold ITC;
+  text-decoration: none;
+  color: #8bbabb;
+  font-weight: 600;
+  font-size: 16px
+}
+a:hover {
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-grey {
+  background-color: skyblue;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #8bbabb;
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color: #6c7b95;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
